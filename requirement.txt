@@ -3,4 +3,5 @@ numpy
 Flask
 xgboost
 pymongo
+scikit-learn
 -e .

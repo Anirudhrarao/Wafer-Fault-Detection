@@ -9,6 +9,7 @@ from src.logger import logging
 from src.exception import CustomException
 from dataclasses import dataclass
 # from src.utils import MainUtils
+from src.components.data_transformation import DataTransformation
 
 @dataclass
 class DataIngestionConfig:
@@ -83,4 +84,6 @@ class DataIngestion:
 
 if __name__ == "__main__":
     obj = DataIngestion()
-    obj.initiate_data_ingestion()
+    store_file_path = obj.initiate_data_ingestion()
+    dt = DataTransformation(store_file_path=store_file_path)
+    dt.initiate_data_transformation()
