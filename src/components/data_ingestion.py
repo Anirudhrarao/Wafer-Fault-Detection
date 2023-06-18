@@ -10,6 +10,7 @@ from src.exception import CustomException
 from dataclasses import dataclass
 # from src.utils import MainUtils
 from src.components.data_transformation import DataTransformation
+from src.components.model_trainer import ModelTrainer
 
 @dataclass
 class DataIngestionConfig:
@@ -86,4 +87,6 @@ if __name__ == "__main__":
     obj = DataIngestion()
     store_file_path = obj.initiate_data_ingestion()
     dt = DataTransformation(store_file_path=store_file_path)
-    dt.initiate_data_transformation()
+    train_arr,test_arr,_ = dt.initiate_data_transformation()
+    model = ModelTrainer()
+    model.initiate_model_trainer(train_array=train_arr,test_array=test_arr)

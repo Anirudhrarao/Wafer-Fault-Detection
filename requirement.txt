@@ -4,4 +4,5 @@ Flask
 xgboost
 pymongo
 scikit-learn
+PyYAML
 -e .
