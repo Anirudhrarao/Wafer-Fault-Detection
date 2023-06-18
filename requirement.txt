@@ -1,0 +1,6 @@
+pandas 
+numpy
+Flask
+xgboost
+pymongo
+-e .
