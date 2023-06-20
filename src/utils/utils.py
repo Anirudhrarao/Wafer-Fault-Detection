@@ -28,3 +28,12 @@ def read_yaml_file(file_path:str)->dict:
     except Exception as e:
         raise CustomException(e,sys)
 
+def load_object(file_path):
+    '''
+        Desc: This function will read or load our pickled file
+    '''
+    try:
+        with open(file_path,'rb') as file_obj:
+            return pickle.load(file_obj) 
+    except Exception as e:
+        raise CustomException(e,sys)

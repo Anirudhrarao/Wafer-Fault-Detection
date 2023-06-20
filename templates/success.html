@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Model Training Success</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    }
+    
+    .container {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .message {
+      text-align: center;
+      animation: bounce 1s ease-in-out infinite;
+    }
+    
+    .success {
+      color: black;
+      font-size: 48px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    @keyframes bounce {
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="message">
+      <h1 class="success">Model Trained Successfully</h1>
+    </div>
+  </div>
+</body>
+</html>
