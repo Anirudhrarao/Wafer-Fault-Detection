@@ -7,12 +7,13 @@
   height: 400px;
   margin-top: -200px;
   margin-left: -200px;
-  border-radius: 2px;
+  border-radius: 10px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background: linear-gradient(to top right, darkmagenta 0%, hotpink 100%);
+  background: linear-gradient(to top right, #74ebd5 0%, #ACB6E5 100%);
   color: #333;
   font-family: "Open Sans", Helvetica, sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -67,19 +68,18 @@ h1 {
 }
 
 .btn {
-  display: block;
-  width: 140px;
-  height: 40px;
-  background: darkmagenta;
-  color: #fff;
-  border-radius: 3px;
-  border: 0;
-  box-shadow: 0 3px 0 0 hotpink;
-  transition: all 0.3s ease-in-out;
-  font-size: 14px;
+  display: inline-block;
+  background-color: #ff9800;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border: 1px solid white;
 }
 
 .btn:hover {
-  background: rebeccapurple;
-  box-shadow: 0 3px 0 0 deeppink;
+  background-color: #ff8800;
 }

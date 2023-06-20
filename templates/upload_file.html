@@ -4,14 +4,21 @@
   <meta charset="UTF-8">
   <title>Wafer fault detection</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="../static/style.css">
-
+  <link rel="stylesheet" href="../static/style.css">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background: linear-gradient(to right, #74ebd5, #ACB6E5);
+		  }
+	</style>
 </head>
 <body>
 	
 <!-- partial:index.partial.html -->
 <form action = "/predict" method = "post" enctype="multipart/form-data" >
-	<h1 class="title">Upload CSV for the prediction</h1>
+	<h3 class="title">Upload CSV for the prediction</h3>
 <div class="frame">
 	<div class="center">
 		<div class="title">
