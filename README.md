@@ -69,9 +69,9 @@ Start the server
 
 ## Screenshots of project
 ##### Screenshot 1:
-![App Screenshot]()
+![App Screenshot](https://raw.githubusercontent.com/Anirudhrarao/Wafer-Fault-Detection/main/screenshot/wafer1.png)
 ##### Screenshot 2:
-![App Screenshot]()
+![App Screenshot](https://raw.githubusercontent.com/Anirudhrarao/Wafer-Fault-Detection/main/screenshot/wafer2.png)
 
 ## Authors
 
