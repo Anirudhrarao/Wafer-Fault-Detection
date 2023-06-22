@@ -58,7 +58,44 @@
     
     img {
       width: 350px;
-    }      
+    }
+
+    /* Loading Animation */
+    .loading-container {
+      display: none;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .loading {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .loading:before {
+      content: "";
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 2px solid #333;
+      border-top-color: transparent;
+      animation: spin 1s linear infinite;
+    }
+
+    .loading-text {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    @keyframes spin {
+      to {transform: rotate(360deg);}
+    }
+
+    /* Show the loading animation when the button is clicked */
+    .button.clicked ~ .loading-container {
+      display: block;
+    }
   </style>
 </head>
 <body>
@@ -70,9 +107,27 @@
           <img src="https://images.unsplash.com/photo-1587845323226-bad89242c735?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1187&q=80" alt="Wafer Fault Detection Logo" />
         </div>
       </div>
-      <a class="button" href="/train">Train Model</a>
+      <div class="loading-container">
+        <div class="loading"></div>
+        <p class="loading-text">Training started please wait...</p>
+      </div>
+      <a class="button" href="/train" onclick="handleTrainClick()">Train Model</a>
       <a class="button" href="/predict">Detect Faults</a>
+      <a class="button" href="/logged">Logs</a>
     </div>
   </div>
+
+  <script>
+    function handleTrainClick() {
+      var button = document.querySelector('.button');
+      var loadingContainer = document.querySelector('.loading-container');
+      
+      // Add 'clicked' class to the button
+      button.classList.add('clicked');
+      
+      // Show the loading container
+      loadingContainer.style.display = 'block';
+    }
+  </script>
 </body>
 </html>
