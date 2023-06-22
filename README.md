@@ -72,6 +72,14 @@ Start the server
 ![App Screenshot](https://raw.githubusercontent.com/Anirudhrarao/Wafer-Fault-Detection/main/screenshot/wafer1.png)
 ##### Screenshot 2:
 ![App Screenshot](https://raw.githubusercontent.com/Anirudhrarao/Wafer-Fault-Detection/main/screenshot/wafer2.png)
+##### Screenshot 3:
+![App Screenshot](https://raw.githubusercontent.com/Anirudhrarao/Wafer-Fault-Detection/main/screenshot/wafer3.png)
+##### Screenshot 4:
+![App Screenshot](https://raw.githubusercontent.com/Anirudhrarao/Wafer-Fault-Detection/main/screenshot/wafer4.png)
+##### Screenshot 5:
+![App Screenshot](https://raw.githubusercontent.com/Anirudhrarao/Wafer-Fault-Detection/main/screenshot/wafer5.png)
+##### Screenshot 6:
+![App Screenshot](https://raw.githubusercontent.com/Anirudhrarao/Wafer-Fault-Detection/main/screenshot/wafer6.png)
 
 ## Authors
 
