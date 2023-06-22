@@ -78,7 +78,7 @@ Start the server
 ![App Screenshot](https://raw.githubusercontent.com/Anirudhrarao/Wafer-Fault-Detection/main/screenshot/wafer4.png)
 ##### Screenshot 5:
 ![App Screenshot](https://raw.githubusercontent.com/Anirudhrarao/Wafer-Fault-Detection/main/screenshot/wafer5.png)
-##### Screenshot 6:
+##### Screenshotb Output 6:
 ![App Screenshot](https://raw.githubusercontent.com/Anirudhrarao/Wafer-Fault-Detection/main/screenshot/wafer6.png)
 
 ## Authors
